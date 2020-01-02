@@ -1,0 +1,114 @@
+/* Фоновая картинка сайта */
+.backimage {
+  background: url(/../themes/bootstrap/images/skolaback.jpg);
+  background-attachment: fixed;
+  background-clip: padding-box;
+  color: #fcf8e3;
+}
+/* Шапка сайта с логотипом */
+.shapka {
+ /* column-count: 2; */
+ column-width: auto;
+ column-span: none;
+ color: #fcf8e3;
+ text-align: center;
+ margin: auto;
+ /* padding-left: 0px;
+ padding-right: 380px; */
+ }
+ /* Логотип в шапке */
+.img
+{
+  display: block;
+  margin: auto;
+ }
+
+ /* Заголовки страниц */
+ .title
+ {
+margin-top: 0;
+padding-bottom: 9px;
+margin: 40px 0 20px;
+border-bottom: 1px solid #eeeeee;
+box-sizing: border-box;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 36px;
+line-height: 1.42857143;
+color: #fcf8e3;
+}
+h1, .h1
+{
+  font-size: 36px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+/*Содержимое страниц */
+.content
+{
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #fcf8e3;
+  text-align: justify;
+}
+a
+{
+  color:#a6df7f;
+  background-color: transparent;
+}
+table
+{
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
+/*Кем опубликовано (Автор) */
+.author
+{
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fcf8e3;
+  }
+  .footer1
+  {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fcf8e3;
+    }
+.featured-bottom
+{
+  margin-top: 45px;
+
+  padding-top: 15px;
+  padding-bottom:15px;
+  border-top: 1px solid #eeeeee;
+  line-height: 1.42857143;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fcf8e3;
+  /*padding-left: 380px;
+  padding-right: 0px; */
+}
+
+.container
+{
+  /* width: 1170px; */
+padding-right: 13px;
+padding-left: 13px;
+margin-right: auto;
+margin-left: auto;
+}
+.body
+{
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fcf8e3;
+}
